@@ -30,6 +30,7 @@ terraform {
     helm = {
       // used for Hashicorp Vault
       source = "hashicorp/helm"
+      version = "< 3.0.0"
     }
   }
 }
